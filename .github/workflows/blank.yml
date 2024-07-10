@@ -1,0 +1,6 @@
+  method: 'POST',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    body: `grant_type=authorization_code&code=${code}&redirect_uri=https://auth.example.io&client_id=<Ваш ID клиента>&client_secret=<Секретный ключ клиента>`
+})
